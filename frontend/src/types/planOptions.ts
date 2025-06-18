@@ -1,0 +1,25 @@
+// /frontend/src/types/planOptions.ts
+
+export const planOptions = [
+  { label: "上り特化 3GB プラン", value: "PNEW_UpSpl3G" },
+  { label: "上り特化 10GB プラン", value: "PNEW_UpSpl10G" },
+  { label: "上り特化 30GB プラン", value: "PNEW_UpSpl30G" },
+  { label: "上り特化 40GB プラン", value: "PNEW_UpSpl40G" },
+  { label: "上り特化 50GB プラン", value: "PNEW_UpSpl50G" },
+  { label: "上り特化 80GB プラン", value: "PNEW_UpSpl80G" },
+  { label: "速度上限 200kbps プラン", value: "PNEW_SpdLtd200K" },
+  { label: "上りダブル無制限プラン", value: "PNEW_UpDoubleUL" },
+  { label: "月容量 1GB", value: "PNEW_1G" },
+  { label: "月容量 3GB", value: "PNEW_3G" },
+  { label: "月容量 5GB", value: "PNEW_5G" },
+  { label: "月容量 7GB", value: "PNEW_7G" },
+  { label: "月容量 10GB", value: "PNEW_10G" },
+  { label: "月容量 15GB", value: "PNEW_15G" },
+  { label: "月容量 20GB", value: "PNEW_20G" },
+  { label: "月容量 25GB", value: "PNEW_25G" },
+  { label: "月容量 30GB", value: "PNEW_30G" },
+  { label: "月容量 50GB", value: "PNEW_50G" },
+  { label: "5分かけ放題", value: "PNEW_kakeho05" },
+  { label: "10分かけ放題", value: "PNEW_kakeho10" },
+  { label: "完全かけ放題", value: "PNEW_fullkakeho" },
+];
