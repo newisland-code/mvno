@@ -1,7 +1,6 @@
 // backend/src/controllers/activateEsim.ts
 import fetch from "node-fetch";
 import FormData from "form-data";
-import { getAuthKey } from "./auth"; // 自動でauthKeyを取得
 
 interface EsimActivationPayload {
   eid: string;
@@ -30,6 +29,12 @@ interface EsimActivationPayload {
     oldProductNumber?: string;
     oldEid?: string;
   };
+}
+
+// 仮のgetAuthKey関数を追加（本来は適切な実装またはimportが必要）
+async function getAuthKey(): Promise<string | null> {
+  // TODO: 実際の認証キー取得処理に置き換えてください
+  return "dummy-auth-key";
 }
 
 export async function activateEsim(inputPayload: EsimActivationPayload) {
